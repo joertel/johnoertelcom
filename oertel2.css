@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* CSS Document */
+
+#bannerImage {
+	height: 150px;
+	border-radius: 12px;
+	background-image: url(images/banner_why.jpg);
+	margin-top: 25px;
+	margin-bottom: 18px;
+	}
+	
+section#main {
+	margin: 0 auto;
+	width: 960px;
+	height: 875px;
+	background-color: #FFF;
+	border-radius: 16px;
+	margin-bottom: 18px;
+	}	
+	
+article {
+	width: 500px;
+	margin-left: 100px;
+	float: left;
+	}	
+	
+article h4{
+	font-size: 1em;
+	color: #FFBE00;
+	font-weight: 700;
+	padding: 50px 0 30px 0;
+	}
+	
+article p{
+	font-size: 90%;
+	line-height: 160%;
+	font-variant: normal;
+	color: black;
+	text-align: left;
+	text-decoration: none;
+	font-style: normal;
+	font-weight: normal;
+	text-shadow: none;
+	padding-bottom: 40px;
+	padding-right: 50px;
+	}	
+	
+aside {
+	margin: 0;
+	padding: 0;
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin-top: -90px;
+	margin-left: 75px;
+	}
+	
+.facebook {
+	height: 30px;
+	font-size: 1.6em;
+	width: 125px;
+	background-color: #D1CECE;
+	padding: 10px;
+	float: left;
+	margin-top: 200px;
+	border-radius: 6px;
+	}
+		
+aside .twitter {
+	width: 125px;
+	height: 30px;
+	font-size: 1.6em;
+	background: #CCC;
+	padding: 10px;
+	float: left;
+	margin-top: 5px;
+	border-radius: 6px;
+}	
+	
+aside a {
+	text-decoration: none;
+	color: white;
+	}
+aside a:hover {
+	color: #FFBE00;
+	}
+	
+	footer {
+	margin: 0;
+	clear: both;
+	height: 120px;
+	background-color: #4F4F4F;
+	border-radius: 9px;
+	border-width: thin;
+	border-style: hidden;
+	padding: 25px;
+	}
+
+footer p {
+	padding: 0px 0px;
+	font-size: .7em;
+	line-height: 1.2em;
+	font-variant: normal;
+	color: #999999;
+	text-shadow:none;
+	text-align: left;
+	margin-top: 20px;
+	}
+		
+footer nav a {
+	display: inline;
+	text-decoration: none;
+	font-size: .7em;
+	color: white;
+	}
+	
+footer nav a:hover {
+	display: inline;
+	text-decoration: none;
+	font-size: .7em;
+	color: #FFBE00;
+	}
